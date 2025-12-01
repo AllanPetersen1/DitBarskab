@@ -1,0 +1,15 @@
+{
+  "coffee": ["Kahlua", "Coffee Liqueur", "Espresso"],
+  "espresso": ["Espresso", "Kahlua", "Coffee Liqueur"],
+  "citrus": ["Lemon Juice", "Lime Juice", "Orange Juice"],
+  "lemon": ["Lemon Juice"],
+  "lime": ["Lime Juice"],
+  "orange": ["Orange Juice"],
+  "whisky": ["Whiskey", "Bourbon"],
+  "whiskey": ["Whiskey", "Bourbon"],
+  "rum": ["Rum", "Dark Rum", "Light Rum", "White Rum", "Aged Rum"],
+  "energy": ["Redbull"],
+  "redbull": ["Redbull"],
+  "cream": ["Baileys", "Cream", "Heavy Cream"],
+  "baileys": ["Baileys"]
+}
