@@ -1,6 +1,6 @@
 {
-  "coffee": ["Kahlua", "Coffee Liqueur", "Espresso"],
-  "espresso": ["Espresso", "Kahlua", "Coffee Liqueur"],
+  "coffee": ["espresso", "kaffe"],
+  "coffee Liqueur": ["Kahlua"],
   "citrus": ["Lemon Juice", "Lime Juice", "Orange Juice"],
   "lemon": ["Lemon Juice"],
   "lime": ["Lime Juice"],
