@@ -1,15 +1,86 @@
 {
   "coffee": ["espresso", "kaffe"],
-  "coffee Liqueur": ["Kahlua"],
-  "citrus": ["Lemon Juice", "Lime Juice", "Orange Juice"],
-  "lemon": ["Lemon Juice"],
-  "lime": ["Lime Juice"],
-  "orange": ["Orange Juice"],
-  "whisky": ["Whiskey", "Bourbon"],
-  "whiskey": ["Whiskey", "Bourbon"],
-  "rum": ["Rum", "Dark Rum", "Light Rum", "White Rum", "Aged Rum"],
-  "energy": ["Redbull"],
-  "redbull": ["Redbull"],
-  "cream": ["Baileys", "Cream", "Heavy Cream"],
-  "baileys": ["Baileys"]
+  "coffee liqueur": ["kahlua", "kaffelikør"],
+  
+  "citrus juice": ["lemon juice", "lime juice", "orange juice", "citron", "citrusjuice", "citronjuice", "limejuice", "limesaft"],
+  
+  "whiskey": ["whisky", "bourbon", "rye", "rye whiskey"],
+  
+  "rum": ["dark rum", "light rum", "white rum", "lys rom", "mørk rom", "cachaca"],
+  
+  "milk": ["sødmælk", "mælk", "kakaomælk", "rismælk"],
+  "cream": ["fløde", "piskefløde"],
+  
+  "amaretto": ["disaronno"],
+  
+  "licor 43": ["cuarenta y tres"],
+  
+  "jägermeister": ["jäger"],
+  
+  "tonic water": ["tonic"],
+  "soda water": ["danskvand", "club soda"],
+  "ginger beer": ["gingerbeer"],
+  
+  "mint": ["mynte", "mynteblade"],
+  
+  "bitters": ["angostura", "angostura bitters", "orange bitters", "chili bitters", "choko-bitters", "cherry bitters", "celery bitters", "selleri bitters", "appelsinbitter"],
+  
+  "sugar syrup": ["sukkersirup"],
+  "grenadine": ["grenadine sirup"],
+  "orgeat": ["orgeat sirup"],
+  "vanilla syrup": ["vaniljesirup", "vanilje sirup", "vaniljasirup"],
+  "honey syrup": ["honningsirup"],
+  "cinnamon syrup": ["kanelsirup"],
+  "maple syrup": ["ahornsirup"],
+  "demerara syrup": ["demarasirup"],
+  
+  "vermouth": ["sød vermouth", "martini rosso", "martini extra dry"],
+  
+  "triple sec": ["cointreau"],
+  
+  "chartreuse": ["gul chartreuse"],
+  
+  "egg white": ["æggehvide"],
+  
+  "passion fruit": ["passionsfrugt", "passionsfrugtsirup"],
+  
+  "pineapple": ["ananas", "ananas juice"],
+  
+  "coconut": ["kokos", "kokos sirup"],
+  
+  "raspberry": ["hindbær", "hindbær puré"],
+  
+  "elderflower": ["hyldeblomst", "hyldeblomstsirup", "st. germain"],
+  
+  "peach": ["fersken", "fersken likør"],
+  
+  "cherry": ["kirsebær", "kirsebærsirup"],
+  
+  "strawberry": ["jordbær", "jordbær puré"],
+  
+  "blueberry": ["blåbær"],
+  
+  "cucumber": ["agurk"],
+  
+  "cranberry": ["tranebær", "tranebærjuice"],
+  
+  "banana": ["bananlikør", "pisang ambon"],
+  
+  "apple": ["æblejuice"],
+  
+  "chocolate": ["kakaomælk"],
+  
+  "caramel": ["cuba caramel"],
+  
+  "prosecco": ["mousserende vin"],
+  
+  "cola": ["cola"],
+  
+  "sprite": ["sprite"],
+  
+  "lemon soda": ["lemon sodavand"],
+  
+  "ginger ale": ["ginger ale"],
+  
+  "tea": ["varm te"]
 }

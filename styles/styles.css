@@ -1,0 +1,8 @@
+#suggestions li.bg-neutral-700 {
+  background-color: #404040;
+  color: #fbbf24; /* brand color - adjust if needed */
+}
+
+#suggestions li:hover {
+  background-color: #525252;
+}
