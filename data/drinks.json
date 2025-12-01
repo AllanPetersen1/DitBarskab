@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Espresso Martini",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Kahlua",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Kaffe",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1 cl"
+      }
+    ],
+    "garnish": "Kaffeb\u00f8nner (3 stk.)",
+    "method": "Shake + Fine strain",
+    "glass": "Martini/coupette",
+    "ice": "Terninger"
+  }
+]
