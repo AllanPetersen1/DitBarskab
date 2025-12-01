@@ -146,31 +146,151 @@
     "ice": "Terninger"
   },
   {
-    "name": "Gimlet",
+    "name": "Gin Tonic",
     "ingredients": [
       {
         "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tonic",
+        "amount": "10 cl"
+      }
+    ],
+    "garnish": "(Appelsinskive Limebåd Anisstjerne Citronskive)",
+    "method": "Build + Stir",
+    "glass": "Vin",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Long Island Ice Tea",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mørk rom",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Gin",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Tequila",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Triple Sec",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Cola",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Churn",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Amaretto Sour",
+    "ingredients": [
+      {
+        "name": "Amaretto",
         "amount": "5 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Citrusjuice",
         "amount": "2 cl"
       },
       {
         "name": "Sukkersirup",
         "amount": "1 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Angrostura Bitter",
+        "amount": "2 dashes"
       }
     ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
+    "garnish": "Kirsebær",
+    "method": "Dry Shake + Shake + Strain",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Mojito",
+    "name": "Whiskey Sour",
     "ingredients": [
       {
-        "name": "Lys rom",
+        "name": "Whiskey",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Angostura Bitter",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Appelsin zest/Tørret limeskive",
+    "method": "Dry shake + Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Aperol Spritz",
+    "ingredients": [
+      {
+        "name": "Aperol",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Mousserende vin",
+        "amount": "8 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Appelsinskive",
+    "method": "Build + Stir",
+    "glass": "Vinglas",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Alter Ego",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Ananas juice",
         "amount": "5 cl"
       },
       {
@@ -178,29 +298,213 @@
         "amount": "2 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Citrusjuice",
         "amount": "2 cl"
       },
       {
-        "name": "Sodavand",
-        "amount": "top up"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
+        "name": "Absinthé",
+        "amount": "3 dråber"
       }
     ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Muddle + Build",
+    "garnish": "Agurk",
+    "method": "Build + Churn",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Bee's Knees",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Appelsinjuice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Honningsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Tørret limeskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Blue Hawaiian",
+    "ingredients": [
+      {
+        "name": "Lys Rom",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Ananas juice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Kokos sirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Curacao blå",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Kokosflager",
+    "method": "Shake + Strain",
     "glass": "Highball",
     "ice": "Knust"
   },
   {
-    "name": "Whiskey Sour",
+    "name": "Cosmopolitan",
     "ingredients": [
       {
-        "name": "Bourbon",
+        "name": "Vodka",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Tranebær juice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Triple sec",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Citrongræs",
+    "method": "Shake + fine strain",
+    "glass": "Coupette/Martini",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Cuba Libre",
+    "ingredients": [
+      {
+        "name": "Mørk rom",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Cola",
+        "amount": "10 cl/top op"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Cuban Club",
+    "ingredients": [
+      {
+        "name": "Mørk rom",
         "amount": "5 cl"
+      },
+      {
+        "name": "Kanelsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Falernum",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Limebåd + Kanelstang",
+    "method": "Build + stir",
+    "glass": "Highball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Brandbil",
+    "ingredients": [
+      {
+        "name": "Jägermeister",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Rød sodavand",
+        "amount": "10 cl/top op"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Flügel",
+    "ingredients": [
+      {
+        "name": "Cuba Raspberry",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Grenadine sirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Faxe kondi booster",
+        "amount": "10 cl"
+      }
+    ],
+    "garnish": "Limeskive",
+    "method": "Build + Stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Dumle",
+    "ingredients": [
+      {
+        "name": "Cuba Caramel",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Kakaomælk",
+        "amount": "10 cl/top up"
+      }
+    ],
+    "garnish": "",
+    "method": "Build + stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Daiquiri",
+    "ingredients": [
+      {
+        "name": "Lys Rom",
+        "amount": "4 cl"
       },
       {
         "name": "Citrusjuice",
@@ -209,61 +513,160 @@
       {
         "name": "Sukkersirup",
         "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
       }
     ],
-    "garnish": "Citron skive/kirsebær",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
+    "garnish": "Limeskive",
+    "method": "Shake + Fine Strain",
+    "glass": "Coupette/Martini",
     "ice": "Terninger"
   },
   {
-    "name": "Old Fashioned",
+    "name": "Mojito",
     "ingredients": [
       {
-        "name": "Bourbon/Rye whiskey",
-        "amount": "5 cl"
+        "name": "Lys Rom",
+        "amount": "4 cl"
       },
       {
-        "name": "Sukker",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura bitter",
-        "amount": "3 dashes"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "splash"
-      }
-    ],
-    "garnish": "Appelsin twist/Kirsebær",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Margarita",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
+        "name": "Sukkersirup",
         "amount": "2 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "3 cl"
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Mynteblade",
+        "amount": "10 stk"
+      },
+      {
+        "name": "Limebåd",
+        "amount": "3 stk"
+      },
+      {
+        "name": "Rørsukker",
+        "amount": "4 g"
       }
     ],
-    "garnish": "Salt rand/Lime hjul",
+    "garnish": "Limebåd + Mynte",
+    "method": "Muddle + Build + Churn",
+    "glass": "Highball",
+    "ice": "Knust"
+  },
+  {
+    "name": "French 75",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mousserende vin",
+        "amount": "6 cl"
+      }
+    ],
+    "garnish": "Citron",
     "method": "Shake + Strain",
-    "glass": "Martini/coupette",
+    "glass": "Champagne",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Gin Gin Mule",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Gingerbeer",
+        "amount": "10 cl/top up"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Churn",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Mai Tai",
+    "ingredients": [
+      {
+        "name": "Lys Rom",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Orgeat sirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Triple sec",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Mynte",
+    "method": "Shake + strain",
+    "glass": "Lowball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Pornstar Martini",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mousserende Vin",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Passionsfrugt sirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Vanilje Sirup",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Tørret limeskive",
+    "method": "Shake + fine Strain",
+    "glass": "Coupette/Martini",
     "ice": "Terninger"
   },
   {
@@ -278,362 +681,108 @@
         "amount": "3 cl"
       },
       {
-        "name": "Sød vermouth",
+        "name": "Sød Vermouth",
         "amount": "3 cl"
       }
     ],
-    "garnish": "Appelsin twist",
+    "garnish": "Appelsin skrald",
     "method": "Build + Stir",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Manhattan",
+    "name": "Old Fashioned",
     "ingredients": [
       {
-        "name": "Rye whiskey",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
-      }
-    ],
-    "garnish": "Kirsebær",
-    "method": "Stir + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dry Martini",
-    "ingredients": [
-      {
-        "name": "Gin/Vodka",
+        "name": "Bourbon/Whiskey",
         "amount": "6 cl"
       },
       {
-        "name": "Dry vermouth",
-        "amount": "1 cl"
+        "name": "Rørsukker",
+        "amount": "4 g"
+      },
+      {
+        "name": "Angostura Bitters",
+        "amount": "3 dashes"
       }
     ],
-    "garnish": "Oliven (3 stk.)/citron twist",
+    "garnish": "Appelsin skrald",
     "method": "Stir + Strain",
-    "glass": "Martini/coupette",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Daiquiri",
+    "name": "Pina Colada",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Lys Rom",
+        "amount": "4 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Ananas juice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Kokos sirup",
         "amount": "2 cl"
       },
       {
         "name": "Sukkersirup",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Pisco Sour",
-    "ingredients": [
-      {
-        "name": "Pisco",
-        "amount": "5 cl"
+        "amount": "1 cl"
       },
       {
         "name": "Citrusjuice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sukkersirup",
         "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
       }
     ],
-    "garnish": "Angostura Bitter (2 dashes)",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Caipirinha",
-    "ingredients": [
-      {
-        "name": "Cachaca",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukker",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Lime",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Lime båd",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
+    "garnish": "Kokosflager",
+    "method": "Shake + Strain",
+    "glass": "Hurricane/Vin/Highball",
     "ice": "Knust"
   },
   {
-    "name": "Bloody Mary",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Tomat juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Worchestershire sauce",
-        "amount": "2 dashes"
-      },
-      {
-        "name": "Tabasco",
-        "amount": "1 dash"
-      },
-      {
-        "name": "Salt",
-        "amount": "lille drys"
-      },
-      {
-        "name": "Peber",
-        "amount": "lille drys"
-      }
-    ],
-    "garnish": "Blegselleri/Lime hjul",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Cosmopolitan",
+    "name": "Sex On The Beach",
     "ingredients": [
       {
         "name": "Vodka",
         "amount": "4 cl"
       },
       {
-        "name": "Cointreau",
+        "name": "Appelsinjuice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tranebærjuice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Peach sirup",
         "amount": "2 cl"
-      },
-      {
-        "name": "Tranebær juice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "1 cl"
       }
     ],
-    "garnish": "Appelsin twist",
+    "garnish": "Appelsinbåd",
     "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Long Island Iced Tea",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Gin",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lys rom",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Tequila",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand/Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron skive",
-    "method": "Build",
     "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "Sidecar",
+    "name": "Mexican Mule",
     "ingredients": [
       {
-        "name": "Cognac",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist/Sukker rand",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Tom Collins",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "3 cl"
+        "name": "Tequila",
+        "amount": "4 cl"
       },
       {
         "name": "Sukkersirup",
         "amount": "2 cl"
       },
       {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron skive/Kirsebær",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Sex on the beach",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "ferskenlikør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Tranebær juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "4 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Aperol Spritz",
-    "ingredients": [
-      {
-        "name": "Aperol",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Prosecco",
-        "amount": "9 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build",
-    "glass": "Vinglas",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Porn Star Martini",
-    "ingredients": [
-      {
-        "name": "Vanilje Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
-      },
-      {
         "name": "Citrusjuice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Paloma",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Limesaft",
         "amount": "2 cl"
       },
       {
-        "name": "Grape sodavand",
-        "amount": "top up"
+        "name": "Gingerbeer",
+        "amount": "8 cl/top op"
       }
     ],
     "garnish": "Limebåd",
@@ -642,231 +791,236 @@
     "ice": "Terninger"
   },
   {
-    "name": "Sazerac",
-    "ingredients": [
-      {
-        "name": "Rye whiskey/Cognac",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Absinthe",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Peychaud's Bitter",
-        "amount": "4 dashes"
-      },
-      {
-        "name": "Sukker",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Rinse + Stir + Strain",
-    "glass": "Lowball",
-    "ice": "Ingen"
-  },
-  {
-    "name": "French 75",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Singapore Sling",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Kirsebær likør",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Benedictine",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      }
-    ],
-    "garnish": "Ananas/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Hurricane",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/Kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
-  },
-  {
-    "name": "B52",
-    "ingredients": [
-      {
-        "name": "Kahlua",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Baileys",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Layer",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Bellini",
-    "ingredients": [
-      {
-        "name": "Fersken puré",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Prosecco",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Fersken skive",
-    "method": "Build",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "White Lady",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mint Julep",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Build",
-    "glass": "Julep cup",
-    "ice": "Knust"
-  },
-  {
-    "name": "Espresso tonic",
-    "ingredients": [
-      {
-        "name": "Espresso",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Tonic",
-        "amount": "10 cl"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Vargtass",
+    "name": "Skinny Bitch",
     "ingredients": [
       {
         "name": "Vodka",
         "amount": "4 cl"
       },
       {
-        "name": "Tranebær juice",
+        "name": "Danskvand",
+        "amount": "10 cl"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Strawberry Daiquiri",
+    "ingredients": [
+      {
+        "name": "Lys Rom",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Jordbær Puré",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mynte",
+        "amount": ""
+      }
+    ],
+    "garnish": "Limeskive",
+    "method": "Shake + Fine strain",
+    "glass": "Coupette/Martini",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Tequila Sunrise",
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Appelsinjuice",
+        "amount": "8 cl"
+      },
+      {
+        "name": "grenadine sirup",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Tom Collins",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Citron båd",
+        "amount": "2 stk"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "top op"
+      }
+    ],
+    "garnish": "Halv Citronskive",
+    "method": "Muddle + build + churn",
+    "glass": "Highball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Vanilla Passion",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Passionsfrugt sirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Vaniljesirup",
+        "amount": "1,5 cl"
+      }
+    ],
+    "garnish": "Skumfidus",
+    "method": "Build + Stir",
+    "glass": "Lowball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Passion Mojito",
+    "ingredients": [
+      {
+        "name": "Lys Rom",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citrusjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Passionsfrugt sirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Limebåd",
+        "amount": "3 stk"
+      },
+      {
+        "name": "Mynteblade",
+        "amount": "10 stk"
+      }
+    ],
+    "garnish": "Halv Passionsfrugt + Mynte",
+    "method": "Muddle + build + churn",
+    "glass": "Lowball",
+    "ice": "Knust"
+  },
+  {
+    "name": "Vodka Tonic",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tonic",
+        "amount": "10 cl/top op"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Vodka Redbull",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Redbull",
+        "amount": "10 cl/ top op"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Vodka Tranebær",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tranebærjuice",
+        "amount": "10 cl"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Vodka Lemon",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Lemon Sodavand",
+        "amount": "10 cl"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Whiskey Cola",
+    "ingredients": [
+      {
+        "name": "Whiskey",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Cola",
         "amount": "10 cl"
       }
     ],
@@ -883,1096 +1037,674 @@
         "amount": "4 cl"
       },
       {
-        "name": "Blue Curacao",
+        "name": "Sprite",
+        "amount": "12 cl"
+      },
+      {
+        "name": "Curacao Blå",
         "amount": "2 cl"
-      },
-      {
-        "name": "Lemon sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dirty Banana",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Kahlua",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Bananlikør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Mælk/Fløde",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Banan",
-        "amount": "1/2 stk."
-      }
-    ],
-    "garnish": "Banan skive",
-    "method": "Blend",
-    "glass": "Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Godfather",
-    "ingredients": [
-      {
-        "name": "Scotch",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Amaretto",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Americano",
-    "ingredients": [
-      {
-        "name": "Campari",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Boulevardier",
-    "ingredients": [
-      {
-        "name": "Bourbon/Rye whiskey",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Campari",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Stir + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Clover Club",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Hindbær sirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Hindbær",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Between the sheets",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Cognac",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Irish coffee",
-    "ingredients": [
-      {
-        "name": "Irish whiskey",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Kaffe",
-        "amount": "8 cl"
-      },
-      {
-        "name": "Brun farin",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Flødeskum",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build",
-    "glass": "Irish coffee glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Vieux Carre",
-    "ingredients": [
-      {
-        "name": "Rye whiskey",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Cognac",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Benedictine",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      },
-      {
-        "name": "Peychaud's Bitter",
-        "amount": "1 dash"
-      }
-    ],
-    "garnish": "Citron/kirsebær",
-    "method": "Stir + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Gimlet",
-    "ingredients": [
-      {
-        "name": "Gin/Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Lime cordial",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Lime skive",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Brandy Alexander",
-    "ingredients": [
-      {
-        "name": "Brandy/Cognac",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Creme de Cacao",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Muskatnød",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Southside",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "8 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mai Tai",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Orgeat sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Mynte top/Lime skal",
-    "method": "Shake + Build",
-    "glass": "Lowball/Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Blue Lagoon",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lemon sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Golden Dream",
-    "ingredients": [
-      {
-        "name": "Galliano",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Rusty Nail",
-    "ingredients": [
-      {
-        "name": "Scotch",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Drambuie",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mint Julep (Gin)",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Build",
-    "glass": "Julep cup",
-    "ice": "Knust"
-  },
-  {
-    "name": "Harvey Wallbanger",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Galliano",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/Kirsebær",
-    "method": "Build + Float",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Cuba Libre",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cola",
-        "amount": "top up"
       }
     ],
     "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
+    "method": "Build + stir",
+    "glass": "highball",
     "ice": "Terninger"
   },
   {
-    "name": "Godmother",
+    "name": "Flat White Martini",
     "ingredients": [
       {
-        "name": "Vodka",
+        "name": "Bailey's",
         "amount": "5 cl"
       },
       {
-        "name": "Amaretto",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "French Connection",
-    "ingredients": [
-      {
-        "name": "Cognac",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Amaretto",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Black Russian",
-    "ingredients": [
-      {
         "name": "Vodka",
-        "amount": "5 cl"
+        "amount": "2,5 cl"
       },
       {
-        "name": "Kahlua",
-        "amount": "3 cl"
+        "name": "Espresso",
+        "amount": "2,5 cl"
       }
     ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "White Russian",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Kahlua",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Layer",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Bikini Bottom",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Malibu",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ananas skive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Long Island Ice Tea",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Vodka",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Lys Rom",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Tequila",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Triple Sec",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Citron juice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Coca Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Passionfruit Martini",
-    "ingredients": [
-      {
-        "name": "Passionsfrugt Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Passionsfrugt Juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Citron juice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
+    "garnish": "Kaffebønner",
+    "method": "Shake + Finestrain",
     "glass": "Martini/coupette",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Manhattan",
+    "ingredients": [
+      {
+        "name": "Whiskey",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Martini Rosso",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Angostura",
+        "amount": "1 dash"
+      }
+    ],
+    "garnish": "Kirsebær",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe/Martini",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Græsplæne",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Pisang Ambon",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Lemon sodavand",
+        "amount": "top op"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "Whiskey Smash",
+    "name": "Gammel Have",
     "ingredients": [
       {
-        "name": "Bourbon",
-        "amount": "6 cl"
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Pisang Ambon",
+        "amount": "2 cl"
       },
       {
         "name": "Citron",
-        "amount": "1/2 stk."
+        "amount": "2 cl"
       },
       {
-        "name": "Mynte",
-        "amount": "6 stk."
+        "name": "Appelsinjuice",
+        "amount": "5 cl"
       },
       {
-        "name": "Sukkersirup",
+        "name": "Demarasirup",
         "amount": "2 cl"
       }
     ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Shake + Strain",
+    "garnish": "Limebåd",
+    "method": "Shake + Strain",
     "glass": "Lowball",
-    "ice": "Knust"
+    "ice": "Terninger"
+  },
+  {
+    "name": "Koldskål",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Appelsinjuice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Mælk",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Vaniljesirup",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Limeskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
   },
   {
     "name": "New York Sour",
     "ingredients": [
       {
-        "name": "Bourbon/Rye whiskey",
+        "name": "Bourbon",
         "amount": "5 cl"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Citron",
         "amount": "3 cl"
       },
       {
         "name": "Sukkersirup",
+        "amount": "0,5 cl"
+      },
+      {
+        "name": "Æggehvide",
         "amount": "2 cl"
       },
       {
         "name": "Rødvin",
-        "amount": "1 cl"
+        "amount": "top up - layer"
       }
     ],
-    "garnish": "Citron skive",
-    "method": "Shake + Float",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Penicillin",
-    "ingredients": [
-      {
-        "name": "Scotch",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Isle of Islay whisky",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Honning ingefær sirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Kandiseret ingefær",
+    "garnish": "Citron Zest + Rødvin",
     "method": "Shake + Strain",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Hemingway Daiquiri",
+    "name": "Skumbanan",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Pisang Ambon",
+        "amount": "7 cl"
       },
       {
-        "name": "Grapefrugt juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Maraschino",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
+        "name": "Kakaomælk",
+        "amount": "14 cl"
       }
     ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
+    "garnish": "Revet Chokolade",
+    "method": "Build + Stir",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Airmail",
+    "name": "Kung Fu",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Lime juice",
+        "name": "Jägermeister",
         "amount": "2 cl"
       },
       {
-        "name": "Honning sirup",
-        "amount": "1 cl"
+        "name": "Pisang Ambon",
+        "amount": "2 cl"
       },
       {
-        "name": "Champagne",
+        "name": "Cola",
         "amount": "top up"
       }
     ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Ward Eight",
-    "ingredients": [
-      {
-        "name": "Rye whiskey",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Suffering Bastard",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Brandy",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      },
-      {
-        "name": "Ginger Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Shake + Build",
+    "garnish": "Tørret limeskive",
+    "method": "Build + Stir",
     "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "Blood and Sand",
+    "name": "Caipirinha",
     "ingredients": [
       {
-        "name": "Scotch",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Kirsebær likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Appelsin twist/kirsebær",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Zombie",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Apricot brandy",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      }
-    ],
-    "garnish": "Mynte top/Ananas",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Blue Hawaiian",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
+        "name": "Cachaca",
         "amount": "6 cl"
       },
       {
-        "name": "Fløde",
+        "name": "Limebåde",
+        "amount": "4 stk"
+      },
+      {
+        "name": "Demarasirup",
         "amount": "2 cl"
       }
     ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
+    "garnish": "Tørret limeskive",
+    "method": "Muddle + Build + Churn",
+    "glass": "Lowball",
+    "ice": "Kunst"
   },
   {
-    "name": "Tequila Sunrise",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Layer",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Baja Fog",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Frozen Margarita",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Salt rand/Lime hjul",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
-    "ice": "Knust"
-  },
-  {
-    "name": "Tequila Slammer",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "4 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Shake",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Singapore Sling",
+    "name": "Vesper Martini",
     "ingredients": [
       {
         "name": "Gin",
         "amount": "3 cl"
       },
       {
-        "name": "Kirsebær likør",
+        "name": "Vodka",
         "amount": "1 cl"
       },
       {
-        "name": "Cointreau",
-        "amount": "1 cl"
+        "name": "Lillet Blanc Aperatif",
+        "amount": "0,5 cl"
+      }
+    ],
+    "garnish": "Citron-zest",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe/Martini",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Chilled Lumumba",
+    "ingredients": [
+      {
+        "name": "Mørk Rom",
+        "amount": "4 cl"
       },
       {
-        "name": "Benedictine",
-        "amount": "1 cl"
+        "name": "Kakaomælk",
+        "amount": "8 cl"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Vaniljesirup",
         "amount": "2 cl"
+      }
+    ],
+    "garnish": "Mini-oreo",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Jäger te",
+    "ingredients": [
+      {
+        "name": "Jägermeister",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Varm te",
+        "amount": "8 cl"
+      },
+      {
+        "name": "Lidt sukker",
+        "amount": ""
+      }
+    ],
+    "garnish": "Appelsinskive",
+    "method": "Build + Stir",
+    "glass": "Tekop",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Filur",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Appelsinjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Rød sodavand",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Appelsinskive",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Vanilla Summer",
+    "ingredients": [
+      {
+        "name": "Vanilje vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Æblejuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Ginger Ale",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Appelsinskive",
+    "method": "Shake + Build + Churn",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Caramel Addiction",
+    "ingredients": [
+      {
+        "name": "Lys rom",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Cuba Caramel",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Vaniljasirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mælk",
+        "amount": "4 cl"
+      }
+    ],
+    "garnish": "Tørret citron",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Gin fizz",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "3,5 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Citron skrald",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Københavnerstang",
+    "ingredients": [
+      {
+        "name": "Licor 43 / Galliano",
+        "amount": "3 cl"
       },
       {
         "name": "Ananas juice",
-        "amount": "6 cl"
+        "amount": "3 cl"
       },
       {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
+        "name": "Sødmælk",
+        "amount": "3 cl"
       },
       {
-        "name": "Sodavand",
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Lys rom",
+        "amount": "1 cl"
+      }
+    ],
+    "garnish": "Spiselig blomst ananas appelsin",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Irish Coffee",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Brun Farin",
+        "amount": "2 spsk."
+      },
+      {
+        "name": "Varm kaffe",
         "amount": "top up"
       }
     ],
-    "garnish": "Ananas/kirsebær",
-    "method": "Shake + Build",
+    "garnish": "Flødeskum",
+    "method": "Build + Stir",
+    "glass": "Irish Coffee glas",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Champagnebrus",
+    "ingredients": [
+      {
+        "name": "Cuba caramel",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Limesaft",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Grøn sodavand",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Lime",
+    "method": "Build + Stir",
     "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "French 75",
+    "name": "Bloody Mary",
     "ingredients": [
       {
-        "name": "Gin",
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tomatjuice",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Worchestshire sauce",
+        "amount": "3 dashes"
+      },
+      {
+        "name": "Tabasco",
+        "amount": "4 dashes"
+      }
+    ],
+    "garnish": "Tomat Tørret limeskive Selleri",
+    "method": "Shake + Strain",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Hugo",
+    "ingredients": [
+      {
+        "name": "Prosecco",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Hyldeblomstsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "6 cl"
+      }
+    ],
+    "garnish": "Mynte Lime",
+    "method": "Build + Stir",
+    "glass": "Vinglas",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Golden sunset (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Licor 43",
         "amount": "3 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "1 cl"
+        "name": "Appelsinjuice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Limejuice",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Honningsirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Pistachie absinthe",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Rødvinsskum (5 cl rødvin + 5 cl æggehvide + 1 cl sukkersirup + 1 cl æimejuice Tuile",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Velvetino",
+    "ingredients": [
+      {
+        "name": "Disaronno Velvet",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Ananasjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Hasselnødsirup",
+        "amount": "1,5 cl"
       },
       {
         "name": "Sukkersirup",
         "amount": "1 cl"
       },
       {
-        "name": "Champagne",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Mai Tai",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Orgeat sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Mynte top/Lime skal",
-    "method": "Shake + Build",
-    "glass": "Lowball/Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Blue Hawaiian",
-    "ingredients": [
-      {
-        "name": "Lys rom",
+        "name": "Citron",
         "amount": "3 cl"
       },
       {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Fløde",
+        "name": "Æggehvide",
         "amount": "2 cl"
       }
     ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
+    "garnish": "Revet limeskal",
+    "method": "Shake + Finestrain",
+    "glass": "Martini",
+    "ice": "nej tak"
   },
   {
-    "name": "Tequila Sunrise",
+    "name": "Gin Sour",
     "ingredients": [
       {
-        "name": "Tequila",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Layer",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Pisco Sour",
-    "ingredients": [
-      {
-        "name": "Pisco",
+        "name": "Gin",
         "amount": "5 cl"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Angostura",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Tørret appelsinskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Bee Bold (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Honning-rom",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Bold",
+        "amount": "6 cl"
+      }
+    ],
+    "garnish": "Kakaopulver",
+    "method": "Shake + Finestrain",
+    "glass": "Martini",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Fusion 43 (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Liqor 43",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Espresso",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Choko-bitters",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Bananskum (5 cl bananlikør + 5 cl hvid kakaolikør + 10 cl æggehvide + 3 cl sukkersirup + 5 dashes chokobitter) Kakaopulver",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Domestic sailor",
+    "ingredients": [
+      {
+        "name": "Double cask akvavit",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Creme de mure",
+        "amount": "0,5 cl"
+      },
+      {
+        "name": "Citron",
         "amount": "3 cl"
       },
       {
@@ -1981,225 +1713,122 @@
       },
       {
         "name": "Æggehvide",
-        "amount": "1 stk."
+        "amount": "2 cl"
       },
       {
-        "name": "Angostura Bitter",
+        "name": "selleri bitters",
         "amount": "2 dashes"
       }
     ],
-    "garnish": "Angostura Bitter (2 dashes)",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
+    "garnish": "Frysetørret hindbær",
+    "method": "Shake + Fine strain",
+    "glass": "Coupe",
+    "ice": "nej tak"
   },
   {
-    "name": "B52",
+    "name": "Maz Café (hjemmelavet)",
     "ingredients": [
       {
-        "name": "Kahlua",
+        "name": "Disaronno",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Vaniljesirup",
         "amount": "2 cl"
       },
       {
-        "name": "Baileys",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Layer",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Irish coffee",
-    "ingredients": [
-      {
-        "name": "Irish whiskey",
+        "name": "BOLD kaffe",
         "amount": "4 cl"
       },
       {
-        "name": "Kaffe",
-        "amount": "8 cl"
+        "name": "Kahlua",
+        "amount": "3 cl"
       },
       {
-        "name": "Brun farin",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Flødeskum",
-        "amount": "top up"
+        "name": "Kakaopulver",
+        "amount": "1 tsk"
       }
     ],
-    "garnish": "Ingen",
-    "method": "Build",
-    "glass": "Irish coffee glas",
-    "ice": "Ingen"
+    "garnish": "Revet chokolade",
+    "method": "Shake + Strain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
-    "name": "Vodka Tonic",
+    "name": "Sucker punch",
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "5 cl"
+        "amount": "4 cl"
       },
       {
-        "name": "Tonic",
-        "amount": "10 cl"
+        "name": "Passion/Kokos mix",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Limesaft",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "top"
       }
     ],
-    "garnish": "Limebåd",
-    "method": "Build",
+    "garnish": "Passion båd",
+    "method": "Shake + Strain",
     "glass": "Highball",
-    "ice": "Terninger"
+    "ice": "Knust"
   },
   {
-    "name": "Gin Tonic",
+    "name": "Princess Peach",
     "ingredients": [
       {
-        "name": "Gin",
-        "amount": "5 cl"
+        "name": "Vodka",
+        "amount": "2 cl"
       },
       {
-        "name": "Tonic",
-        "amount": "10 cl"
+        "name": "Fersken likør",
+        "amount": "2 cl"
+      },
+      {
+        "name": "kokos",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tranebær",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1 cl"
       }
     ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
+    "garnish": "Lime båd",
+    "method": "Shake + Strain",
+    "glass": "Tiki",
+    "ice": "Knust"
   },
   {
-    "name": "Whiskey Ginger",
+    "name": "Dragon Eye",
     "ingredients": [
       {
         "name": "Bourbon",
-        "amount": "5 cl"
+        "amount": "4 cl"
       },
       {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Rom & Cola",
-    "ingredients": [
-      {
-        "name": "Rom",
-        "amount": "5 cl"
+        "name": "Hindbær",
+        "amount": "4 cl"
       },
       {
-        "name": "Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Gin Buck",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Vodka Buck",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dark 'n' Stormy",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Ginger Beer",
-        "amount": "top up"
-      },
-      {
-        "name": "Limebåd",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Tequila Soda",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      },
-      {
-        "name": "Limebåd",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Fizzy",
-    "ingredients": [
-      {
-        "name": "Spiritus (Gin/Vodka/Rom)",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
+        "name": "Citron",
         "amount": "2 cl"
       },
       {
@@ -2207,91 +1836,61 @@
         "amount": "2 cl"
       },
       {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Old Fashioned (Rom)",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukker",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura bitter",
-        "amount": "3 dashes"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "splash"
-      }
-    ],
-    "garnish": "Appelsin twist/Kirsebær",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Old Fashioned (Tequila)",
-    "ingredients": [
-      {
-        "name": "Tequila (Añejo)",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Agave sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Angostura bitter",
+        "name": "Chili Bitters",
         "amount": "2 dashes"
       }
     ],
-    "garnish": "Appelsin twist",
-    "method": "Build + Stir",
+    "garnish": "Tørret Chili",
+    "method": "Shake + Strain",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Margarita (Mezcal)",
+    "name": "Green Geisha",
     "ingredients": [
       {
-        "name": "Mezcal",
-        "amount": "5 cl"
+        "name": "Gin",
+        "amount": "4 cl"
       },
       {
-        "name": "Cointreau",
+        "name": "Lime",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Melon/Kokos",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
         "amount": "2 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Salt rand/Lime hjul",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Frozen Daiquiri",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Midori",
+        "amount": "1 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Bitters",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Blomster",
+    "method": "Shake + Strain",
+    "glass": "Tiki",
+    "ice": "Knust"
+  },
+  {
+    "name": "Rumchata",
+    "ingredients": [
+      {
+        "name": "Rumchata/vodka mix",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Ananas/kokos mix",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Lime",
         "amount": "2 cl"
       },
       {
@@ -2299,62 +1898,431 @@
         "amount": "2 cl"
       }
     ],
-    "garnish": "Lime twist",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
+    "garnish": "Ananasblad",
+    "method": "Shake + Strain",
+    "glass": "Kokos skal",
     "ice": "Knust"
   },
   {
-    "name": "Frozen Strawberry Daiquiri",
+    "name": "Peach Fuzz",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Fersken likør",
+        "amount": "3 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Gin",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Triple sec",
         "amount": "2 cl"
       },
       {
-        "name": "Jordbær sirup",
-        "amount": "3 cl"
+        "name": "Champagne",
+        "amount": "10 cl"
       }
     ],
-    "garnish": "Jordbær",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
-    "ice": "Knust"
+    "garnish": "Tørret fersken",
+    "method": "Build + Stir",
+    "glass": "Vinglas",
+    "ice": "Terninger"
   },
   {
-    "name": "Pina Colada",
+    "name": "Shogun Spirit",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Cachaca",
+        "amount": "4 cl"
       },
       {
-        "name": "Kokoscreme",
+        "name": "Lime",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Blåbær",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Ananas skum",
+        "amount": ""
+      }
+    ],
+    "garnish": "Blomst",
+    "method": "",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Daiö Delight",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Saint German",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Rabarber puré",
         "amount": "4 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Vaniljesirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Hindbær",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Yuzu Grove",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Yuzu puré",
+        "amount": "3 cl"
       },
       {
         "name": "Ananas juice",
-        "amount": "8 cl"
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mandelsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "2 cl"
       }
     ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Blend",
-    "glass": "Hurricane",
+    "garnish": "Blomst",
+    "method": "Shake + Strain",
+    "glass": "Tiki",
     "ice": "Knust"
   },
   {
-    "name": "Frozen Mojito",
+    "name": "Green Light",
     "ingredients": [
       {
-        "name": "Lys rom",
+        "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "2 cl"
+      },
+      {
+        "name": "pæresirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "No",
+    "method": "Shake + Finestrain",
+    "glass": "Pære glas",
+    "ice": ""
+  },
+  {
+    "name": "Sakura Leaf",
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Kirsebærsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Kirsebærskum",
+        "amount": "top"
+      }
+    ],
+    "garnish": "Skum + Blomst",
+    "method": "Shake + Strain",
+    "glass": "Dandy glas",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Poison Apple",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sake",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Grøn æble sirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Saint Germain",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "No",
+    "method": "Shake + Strain",
+    "glass": "Æble glas",
+    "ice": "Knust"
+  },
+  {
+    "name": "Movie Night",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Licor 43",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Popkornsirup",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Popkorn",
+    "method": "Shake + Finestrain",
+    "glass": "Coupé",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Midori Sour",
+    "ingredients": [
+      {
+        "name": "Midori",
         "amount": "5 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Sukkersirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Angostura",
+        "amount": "2 dashes"
+      }
+    ],
+    "garnish": "Tørret Appelsinskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Sentimental Gentleman",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Kirsebærlikør",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Valnødslikør",
+        "amount": "1,5 cl"
+      }
+    ],
+    "garnish": "",
+    "method": "Stir",
+    "glass": "Lowball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Sloe Gin Sour",
+    "ingredients": [
+      {
+        "name": "Sloe Gin",
+        "amount": "4,5 cl"
+      },
+      {
+        "name": "Krydderlikør",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": ""
+      },
+      {
+        "name": "Bitters",
+        "amount": ""
+      }
+    ],
+    "garnish": "",
+    "method": "Shake + Dry Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Rum Hot Tuddy",
+    "ingredients": [
+      {
+        "name": "Rom",
+        "amount": "4,5 cl"
+      },
+      {
+        "name": "Demarasirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Kanelstang",
+        "amount": ""
+      },
+      {
+        "name": "Mørk te",
+        "amount": ""
+      }
+    ],
+    "garnish": "",
+    "method": "Build",
+    "glass": "Te krus",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Colleen Bawn",
+    "ingredients": [
+      {
+        "name": "Rye Whiskey",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Gul Chartreuse",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Kirsebærlikør",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": ""
+      }
+    ],
+    "garnish": "Revet muskatnød",
+    "method": "Shake + Dry Shake",
+    "glass": "Coupe",
+    "ice": "Nej Tak"
+  },
+  {
+    "name": "Brandy Alexander",
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": "4,5"
+      },
+      {
+        "name": "Creme De Cacao",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Fløde",
+        "amount": "2,5 cl"
+      }
+    ],
+    "garnish": "Revet muskatnød",
+    "method": "Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Espresso Orangino",
+    "ingredients": [
+      {
+        "name": "Triple Sec",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Espresso",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Kahlua",
+        "amount": "3 cl"
+      }
+    ],
+    "garnish": "Kanel",
+    "method": "Shake + Finestrain",
+    "glass": "Martini/Coupe",
+    "ice": "nej tak"
+  },
+  {
+    "name": "Dis' a Mai Tai (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Mørk Rom",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Disaronno",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Citron",
         "amount": "2 cl"
       },
       {
@@ -2362,120 +2330,65 @@
         "amount": "2 cl"
       },
       {
-        "name": "Mynte",
-        "amount": "10 stk."
+        "name": "Appelsinjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Angostura",
+        "amount": "2 dashes"
       }
     ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Blend",
-    "glass": "Hurricane",
+    "garnish": "Appelsinskive",
+    "method": "Shake + Strain",
+    "glass": "Tiki",
     "ice": "Knust"
   },
   {
-    "name": "Watermelon Crush",
+    "name": "Screaming Orgasm",
     "ingredients": [
       {
         "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Vandmelonsirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Vandmelon",
-        "amount": "2-3 stk."
-      }
-    ],
-    "garnish": "Vandmelon",
-    "method": "Muddle + Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Passionfruit Crush",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Bramble",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Brombærsirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sukkersirup",
         "amount": "1 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Brombær/Limebåd",
-    "method": "Build + Churn",
-    "glass": "Lowball",
-    "ice": "Knust"
-  },
-  {
-    "name": "Gin Hass",
-    "ingredients": [
+        "name": "Kahlua",
+        "amount": "1 cl"
+      },
       {
-        "name": "Gin",
+        "name": "Amaretto",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Baileys",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sødmælk",
         "amount": "4 cl"
-      },
-      {
-        "name": "Mango sirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lemon sodavand",
-        "amount": "10 cl/top up"
       }
     ],
-    "garnish": "Limebåd",
-    "method": "Build + Top",
+    "garnish": "Cigar / Miniflødebolle",
+    "method": "Shake + Strain",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "White Russian",
+    "name": "White Russian 2.0 (hjemmelavet)",
     "ingredients": [
       {
         "name": "Vodka",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Amaretto",
         "amount": "3 cl"
       },
       {
-        "name": "kahlua",
+        "name": "Hindbærsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Kahlua",
         "amount": "3 cl"
       },
       {
@@ -2483,1048 +2396,537 @@
         "amount": "6 cl"
       }
     ],
-    "garnish": "Flødebolle",
-    "method": "Layer + Shake + Strain",
+    "garnish": "Cigar / Miniflødebolle",
+    "method": "Shake + Strian",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Moscow Mule",
+    "name": "Vodka Martini",
     "ingredients": [
       {
         "name": "Vodka",
         "amount": "4 cl"
       },
       {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
+        "name": "Martini extra dry",
+        "amount": "0,5 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Gingerbeer",
-        "amount": "10 cl/top up"
+        "name": "Citron",
+        "amount": "0,5 cl"
       }
     ],
-    "garnish": "Limebåd",
-    "method": "Build + Stir",
+    "garnish": "Oliven",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe/Martini",
+    "ice": "nej tak"
+  },
+  {
+    "name": "The Peacock",
+    "ingredients": [
+      {
+        "name": "Ryoma Rhum Jaonais",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sake",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Yuzu puree",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Litchi sirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Limejuice",
+        "amount": "1 cl"
+      }
+    ],
+    "garnish": "Kirsebærskum (5 cl kirsebærsirup + 5 cl æggehvide + 1 cl sukkersirup + 1 cl citronjuice) Amareno kirsebær + sorte blomsterblade",
+    "method": "Shake",
     "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "Dark & Stormy",
+    "name": "Screwdriver",
     "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Appelsinjuice",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Tørret appelsinskive",
+    "method": "Build",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Risalamande",
+    "ingredients": [
+      {
+        "name": "Lys rom",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Rismælk",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Vaniljesirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Piskefløde",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Amarenokirsebær",
+    "method": "Shake + Strain",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Stormy Mojito",
+    "ingredients": [
+      {
+        "name": "Mynte blade",
+        "amount": ""
+      },
+      {
+        "name": "Limebåde",
+        "amount": ""
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Limejuice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "gingerbeer",
+        "amount": ""
+      },
       {
         "name": "Mørk rom",
         "amount": "4 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Gingerbeer",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
       }
     ],
-    "garnish": "Limebåd",
+    "garnish": "Limebåd Mynte",
     "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
+    "glass": "Higball",
+    "ice": "Knust is"
   },
   {
-    "name": "Gimlet",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mojito",
+    "name": "Between The Sheets",
     "ingredients": [
       {
         "name": "Lys rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
-      }
-    ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Muddle + Build",
-    "glass": "Highball",
-    "ice": "Knust"
-  },
-  {
-    "name": "Whiskey Sour",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
         "amount": "3 cl"
       },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Citron skive/kirsebær",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Old Fashioned",
-    "ingredients": [
-      {
-        "name": "Bourbon/Rye whiskey",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukker",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura bitter",
-        "amount": "3 dashes"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "splash"
-      }
-    ],
-    "garnish": "Appelsin twist/Kirsebær",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Margarita",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Salt rand/Lime hjul",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Negroni",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Campari",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Manhattan",
-    "ingredients": [
-      {
-        "name": "Rye whiskey",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
-      }
-    ],
-    "garnish": "Kirsebær",
-    "method": "Stir + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dry Martini",
-    "ingredients": [
-      {
-        "name": "Gin/Vodka",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Dry vermouth",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Oliven (3 stk.)/citron twist",
-    "method": "Stir + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Daiquiri",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Pisco Sour",
-    "ingredients": [
-      {
-        "name": "Pisco",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
-      }
-    ],
-    "garnish": "Angostura Bitter (2 dashes)",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Caipirinha",
-    "ingredients": [
-      {
-        "name": "Cachaca",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukker",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Lime",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Lime båd",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
-    "ice": "Knust"
-  },
-  {
-    "name": "Bloody Mary",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Tomat juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Worchestershire sauce",
-        "amount": "2 dashes"
-      },
-      {
-        "name": "Tabasco",
-        "amount": "1 dash"
-      },
-      {
-        "name": "Salt",
-        "amount": "lille drys"
-      },
-      {
-        "name": "Peber",
-        "amount": "lille drys"
-      }
-    ],
-    "garnish": "Blegselleri/Lime hjul",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Cosmopolitan",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Tranebær juice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Long Island Iced Tea",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Gin",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lys rom",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Tequila",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand/Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron skive",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Sidecar",
-    "ingredients": [
       {
         "name": "Cognac",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist/Sukker rand",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Tom Collins",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
         "amount": "3 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron skive/Kirsebær",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Sex on the beach",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "ferskenlikør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Tranebær juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "4 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Aperol Spritz",
-    "ingredients": [
-      {
-        "name": "Aperol",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Prosecco",
-        "amount": "9 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build",
-    "glass": "Vinglas",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Porn Star Martini",
-    "ingredients": [
-      {
-        "name": "Vanilje Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Paloma",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Limesaft",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Grape sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Sazerac",
-    "ingredients": [
-      {
-        "name": "Rye whiskey/Cognac",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Absinthe",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Peychaud's Bitter",
-        "amount": "4 dashes"
-      },
-      {
-        "name": "Sukker",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Rinse + Stir + Strain",
-    "glass": "Lowball",
-    "ice": "Ingen"
-  },
-  {
-    "name": "French 75",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Singapore Sling",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Kirsebær likør",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Benedictine",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      }
-    ],
-    "garnish": "Ananas/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Hurricane",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/Kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
-  },
-  {
-    "name": "B52",
-    "ingredients": [
-      {
-        "name": "Kahlua",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Baileys",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Layer",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Bellini",
-    "ingredients": [
-      {
-        "name": "Fersken puré",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Prosecco",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Fersken skive",
-    "method": "Build",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "White Lady",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "4 cl"
       },
       {
         "name": "Cointreau",
         "amount": "3 cl"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Citron",
         "amount": "2 cl"
       }
     ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
+    "garnish": "",
+    "method": "Shake + Finestrain",
+    "glass": "Martini/coupe",
+    "ice": "nej tak"
   },
   {
-    "name": "Mint Julep",
+    "name": "Total Escalation",
     "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Build",
-    "glass": "Julep cup",
-    "ice": "Knust"
-  },
-  {
-    "name": "Espresso tonic",
-    "ingredients": [
-      {
-        "name": "Espresso",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Tonic",
-        "amount": "10 cl"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Vargtass",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Tranebær juice",
-        "amount": "10 cl"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Isbjørn",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lemon sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build + Stir",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dirty Banana",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Kahlua",
-        "amount": "2 cl"
-      },
       {
         "name": "Bananlikør",
         "amount": "2 cl"
       },
       {
-        "name": "Mælk/Fløde",
-        "amount": "6 cl"
+        "name": "Gin",
+        "amount": "3 cl"
       },
       {
-        "name": "Banan",
-        "amount": "1/2 stk."
+        "name": "Blå Curacau",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": ""
       }
     ],
-    "garnish": "Banan skive",
-    "method": "Blend",
-    "glass": "Hurricane",
-    "ice": "Knust"
+    "garnish": "Mynteblade tørret appelsin",
+    "method": "Shake + Dry Shake",
+    "glass": "Highball",
+    "ice": "Knust is"
+  },
+  {
+    "name": "White Linen",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4,5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "30 cl"
+      },
+      {
+        "name": "Hyldeblomst",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Saline Solution",
+        "amount": "2 dash"
+      },
+      {
+        "name": "Agurk",
+        "amount": ""
+      }
+    ],
+    "garnish": "Agurk",
+    "method": "Muddle + Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Knust is"
+  },
+  {
+    "name": "Revolver",
+    "ingredients": [
+      {
+        "name": "Burbon",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Kaffelikør",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Orange Bitter",
+        "amount": "2 dash"
+      }
+    ],
+    "garnish": "Appelsinskrald",
+    "method": "Stir",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Paper Plane",
+    "ingredients": [
+      {
+        "name": "Burbon",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Grappa Nonino",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Aperol",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2,5 cl"
+      }
+    ],
+    "garnish": "Mini papirfly",
+    "method": "Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Astronaut",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Grenadine",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Sprite",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Citron",
+    "method": "Build",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Malfy Clover Club",
+    "ingredients": [
+      {
+        "name": "Gin Malfy Rosa",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Friske hindbær",
+        "amount": "4 stk"
+      }
+    ],
+    "garnish": "Frysetørret hindbær",
+    "method": "Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Malfy Spritz ting",
+    "ingredients": [
+      {
+        "name": "Gin Malfy Rosa",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Lillet Rose",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Bitter Aperitif",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "7,5 cl"
+      }
+    ],
+    "garnish": "Grapefrugt zest",
+    "method": "Build",
+    "glass": "Vinglas",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Amalfi Sunset Spritz",
+    "ingredients": [
+      {
+        "name": "Gin Malfy Rosa",
+        "amount": "3,5 cl"
+      },
+      {
+        "name": "Blodappelsin sodavand",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "5 cl"
+      }
+    ],
+    "garnish": "Appelsinskive Timian kvist Jordbærskiver",
+    "method": "Build",
+    "glass": "Vinglas",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Pink Malfy Lemonade",
+    "ingredients": [
+      {
+        "name": "Gin Malfy Rosa",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Limoncello",
+        "amount": "2,5 cl"
+      },
+      {
+        "name": "Danskvand",
+        "amount": "top up"
+      }
+    ],
+    "garnish": "Hindbær Limebåd",
+    "method": "Build",
+    "glass": "Highball",
+    "ice": "Terninger"
   },
   {
     "name": "Godfather",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Whiskey",
         "amount": "5 cl"
       },
       {
-        "name": "Amaretto",
-        "amount": "3 cl"
+        "name": "Disaronno",
+        "amount": "2,5 cl"
       }
     ],
-    "garnish": "Appelsin twist",
-    "method": "Build + Stir",
+    "garnish": "Amareno kirsebær",
+    "method": "Stir",
     "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Americano",
+    "name": "Tarte Au Citron (hjemmelavet)",
     "ingredients": [
       {
-        "name": "Campari",
+        "name": "Disaronno",
         "amount": "3 cl"
       },
       {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Boulevardier",
-    "ingredients": [
-      {
-        "name": "Bourbon/Rye whiskey",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Campari",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Stir + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Clover Club",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Hindbær sirup",
+        "name": "Lys rom overproof",
         "amount": "2 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Æggehvide",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Hindbær",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Between the sheets",
-    "ingredients": [
-      {
-        "name": "Lys rom",
+        "name": "Citronjuice",
         "amount": "3 cl"
       },
       {
-        "name": "Cognac",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Irish coffee",
-    "ingredients": [
-      {
-        "name": "Irish whiskey",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Kaffe",
-        "amount": "8 cl"
-      },
-      {
-        "name": "Brun farin",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Flødeskum",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build",
-    "glass": "Irish coffee glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Vieux Carre",
-    "ingredients": [
-      {
-        "name": "Rye whiskey",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Cognac",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sød vermouth",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Benedictine",
+        "name": "Sukkersirup",
         "amount": "1 cl"
       },
       {
-        "name": "Angostura Bitter",
+        "name": "Vaniljesirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Mynteblade",
+        "amount": ""
+      },
+      {
+        "name": "Angostura",
         "amount": "1 dash"
       },
       {
-        "name": "Peychaud's Bitter",
-        "amount": "1 dash"
+        "name": "Orange bitter",
+        "amount": "2 dash"
       }
     ],
-    "garnish": "Citron/kirsebær",
-    "method": "Stir + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
+    "garnish": "Flamberet marengsskum (Sukker + æggehvide + Citronjuice) Mynteblad",
+    "method": "Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Passion Punch (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Aperol",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2,5-3 cl"
+      },
+      {
+        "name": "Passionsfrugtsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Ananasjuice",
+        "amount": "3 cl"
+      }
+    ],
+    "garnish": "Tørret limeskive",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
     "name": "Gimlet",
     "ingredients": [
       {
-        "name": "Gin/Vodka",
-        "amount": "5 cl"
+        "name": "Gin",
+        "amount": "5,5 cl"
       },
       {
-        "name": "Lime cordial",
-        "amount": "3 cl"
+        "name": "Limejuice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1 cl"
       }
     ],
-    "garnish": "Lime skive",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
+    "garnish": "Lime",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
-    "name": "Brandy Alexander",
+    "name": "Elderflower Sour",
     "ingredients": [
       {
-        "name": "Brandy/Cognac",
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Citron",
         "amount": "3 cl"
       },
       {
-        "name": "Creme de Cacao",
-        "amount": "3 cl"
+        "name": "Sukkersirup",
+        "amount": "2 cl"
       },
       {
-        "name": "Fløde",
-        "amount": "3 cl"
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Hyldeblomstsaft",
+        "amount": "2 cl"
       }
     ],
-    "garnish": "Muskatnød",
+    "garnish": "Citron",
     "method": "Shake + Strain",
-    "glass": "Martini/coupette",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
@@ -3535,383 +2937,111 @@
         "amount": "5 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
         "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "8 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mai Tai",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Orgeat sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
         "amount": "3 cl"
-      }
-    ],
-    "garnish": "Mynte top/Lime skal",
-    "method": "Shake + Build",
-    "glass": "Lowball/Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Blue Lagoon",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lemon sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Appelsin skive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Golden Dream",
-    "ingredients": [
-      {
-        "name": "Galliano",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Rusty Nail",
-    "ingredients": [
-      {
-        "name": "Scotch",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Drambuie",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Mint Julep (Gin)",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Mynte",
-        "amount": "10 stk."
-      }
-    ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Build",
-    "glass": "Julep cup",
-    "ice": "Knust"
-  },
-  {
-    "name": "Harvey Wallbanger",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Galliano",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/Kirsebær",
-    "method": "Build + Float",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Cuba Libre",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Godmother",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Amaretto",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "French Connection",
-    "ingredients": [
-      {
-        "name": "Cognac",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Amaretto",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Black Russian",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Kahlua",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "White Russian",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Kahlua",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build + Layer",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Bikini Bottom",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Malibu",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ananas skive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Long Island Ice Tea",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Vodka",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Lys Rom",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Tequila",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Triple Sec",
-        "amount": "1.5 cl"
-      },
-      {
-        "name": "Citron juice",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Coca Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Passionfruit Martini",
-    "ingredients": [
-      {
-        "name": "Passionsfrugt Vodka",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Passionsfrugt Juice",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Citron juice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Whiskey Smash",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": "6 cl"
       },
       {
         "name": "Citron",
-        "amount": "1/2 stk."
+        "amount": "3 cl"
       },
       {
-        "name": "Mynte",
-        "amount": "6 stk."
+        "name": "Mynteblade",
+        "amount": "5-8 stk"
+      }
+    ],
+    "garnish": "Mynte",
+    "method": "Shake + Finestrain",
+    "glass": "Martini",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Kahlua Affogato",
+    "ingredients": [
+      {
+        "name": "Kahlua",
+        "amount": "4 cl"
       },
       {
-        "name": "Sukkersirup",
+        "name": "Espresso",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Vaniljeis",
+        "amount": "1 scoop"
+      }
+    ],
+    "garnish": "Revet Chokolade Frisk espresso (2 cl)",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Bumbu Blueberry",
+    "ingredients": [
+      {
+        "name": "Rom",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Ahornsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Blåbærmarmelade",
+        "amount": "1 teske"
+      }
+    ],
+    "garnish": "Blåbærstøv",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Margarita",
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Citron",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Triple Sec",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Agavesirup",
         "amount": "2 cl"
       }
     ],
-    "garnish": "Mynte top",
-    "method": "Muddle + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Knust"
+    "garnish": "Salt rim",
+    "method": "Shake + Finestrain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
-    "name": "New York Sour",
+    "name": "Spicy Margarita",
     "ingredients": [
       {
-        "name": "Bourbon/Rye whiskey",
-        "amount": "5 cl"
+        "name": "Tequila",
+        "amount": "3 cl"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Triple Sec",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Citronjuice",
         "amount": "3 cl"
       },
       {
@@ -3919,457 +3049,264 @@
         "amount": "2 cl"
       },
       {
-        "name": "Rødvin",
-        "amount": "1 cl"
+        "name": "Tabasco",
+        "amount": "2 dashes"
       }
     ],
-    "garnish": "Citron skive",
-    "method": "Shake + Float",
-    "glass": "Lowball",
-    "ice": "Terninger"
+    "garnish": "Salt rim",
+    "method": "Shake + Finestrain",
+    "glass": "Martini",
+    "ice": "Nej tak"
   },
   {
-    "name": "Penicillin",
-    "ingredients": [
-      {
-        "name": "Scotch",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Isle of Islay whisky",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Honning ingefær sirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Kandiseret ingefær",
-    "method": "Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Hemingway Daiquiri",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Grapefrugt juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Maraschino",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Airmail",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Honning sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Lime twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Ward Eight",
-    "ingredients": [
-      {
-        "name": "Rye whiskey",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Suffering Bastard",
+    "name": "Bermuda Hundred",
     "ingredients": [
       {
         "name": "Gin",
-        "amount": "3 cl"
+        "amount": "4,5 cl"
       },
       {
-        "name": "Brandy",
-        "amount": "3 cl"
+        "name": "Campari",
+        "amount": "2,5 cl"
       },
       {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
+        "name": "Orgeat",
+        "amount": "1,5 cl"
       },
       {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
+        "name": "Limejuice",
+        "amount": "1,5 cl"
       },
       {
-        "name": "Ginger Beer",
-        "amount": "top up"
+        "name": "Ananasjuice",
+        "amount": "4,5 cl"
       }
     ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Shake + Build",
-    "glass": "Highball",
+    "garnish": "Ananasblad Amareno kirsebær",
+    "method": "Shake",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Blood and Sand",
+    "name": "Raspberry Chata",
     "ingredients": [
       {
-        "name": "Scotch",
+        "name": "Rumchata",
         "amount": "2 cl"
       },
       {
-        "name": "Sød vermouth",
+        "name": "Vodka",
         "amount": "2 cl"
       },
       {
-        "name": "Kirsebær likør",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Appelsin twist/kirsebær",
-    "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Zombie",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Apricot brandy",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
+        "name": "Hindbær puree",
         "amount": "4 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "2 cl"
+        "name": "Vaniljesirup",
+        "amount": "1,5 cl"
       },
       {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
+        "name": "Sukkersirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Citronsaft",
+        "amount": "3 cl"
       }
     ],
-    "garnish": "Mynte top/Ananas",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
+    "garnish": "Frysetørret hindbær",
+    "method": "Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
-    "name": "Blue Hawaiian",
+    "name": "Very Berry Sour",
     "ingredients": [
       {
-        "name": "Lys rom",
+        "name": "Hindbærlikør",
         "amount": "3 cl"
       },
       {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
+        "name": "Likør43",
+        "amount": "3 cl"
       },
       {
-        "name": "Ananas juice",
+        "name": "Citronjuice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": ""
+      }
+    ],
+    "garnish": "Hindbær puree",
+    "method": "Shake",
+    "glass": "Lowball",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Sakura blossom (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Burbon Rye",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Hyldeblomstlikør",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Kirsebærlikør",
+        "amount": "3 cl"
+      },
+      {
+        "name": "2 dash Orange bitters",
+        "amount": ""
+      },
+      {
+        "name": "4 dråber Saline solution",
+        "amount": ""
+      },
+      {
+        "name": "1 dash Cherry bitters",
+        "amount": ""
+      }
+    ],
+    "garnish": "Appelsinskrald",
+    "method": "Stir",
+    "glass": "Apperativ glas",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Not So Violet Sour",
+    "ingredients": [
+      {
+        "name": "Gin",
         "amount": "6 cl"
       },
       {
-        "name": "Fløde",
-        "amount": "2 cl"
+        "name": "Citronjuice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Violet sirup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "3 dash Orange bitters",
+        "amount": ""
+      },
+      {
+        "name": "Æggehvide",
+        "amount": ""
       }
     ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
+    "garnish": "Citronskrald og maraschino kirsebær",
+    "method": "Shake + Dry Shake",
+    "glass": "Lowball",
+    "ice": "Ja tak"
   },
   {
-    "name": "Tequila Sunrise",
+    "name": "Aperilla (hjemmelavet)",
     "ingredients": [
       {
-        "name": "Tequila",
+        "name": "Likør 43",
         "amount": "4 cl"
       },
       {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
+        "name": "Aperol",
+        "amount": "2,5 cl"
       },
       {
-        "name": "Grenadine",
+        "name": "Appelsinjuice",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Sukkersirup",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Æggehvide",
+        "amount": "2 cl"
+      }
+    ],
+    "garnish": "Appelsin-peel",
+    "method": "Shake + Dry Shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Cukaiser (hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Passion pure",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Limejuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Mandelsirup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Luxardo",
         "amount": "1 cl"
+      },
+      {
+        "name": "Agurk",
+        "amount": "5 cm muddlet"
       }
     ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Layer",
+    "garnish": "Agurk swirl Passionsfrugt",
+    "method": "Shake + Strain",
     "glass": "Highball",
-    "ice": "Terninger"
+    "ice": "Ja tak"
   },
   {
-    "name": "Baja Fog",
+    "name": "Beertail (hjemmelavet)",
     "ingredients": [
       {
-        "name": "Tequila",
-        "amount": "4 cl"
+        "name": "Aperol",
+        "amount": "3 cl"
       },
       {
-        "name": "Blue Curacao",
+        "name": "St. Germain",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Limejuice",
         "amount": "2 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
+        "name": "top med Blanc",
+        "amount": ""
       }
     ],
     "garnish": "Limebåd",
-    "method": "Shake + Build",
+    "method": "Shake + Strain + Top",
     "glass": "Highball",
     "ice": "Terninger"
   },
   {
-    "name": "Frozen Margarita",
+    "name": "Beertail 2 (hjemmelavet)",
     "ingredients": [
       {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Salt rand/Lime hjul",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
-    "ice": "Knust"
-  },
-  {
-    "name": "Tequila Slammer",
-    "ingredients": [
-      {
-        "name": "Tequila",
+        "name": "Aperol",
         "amount": "4 cl"
       },
       {
-        "name": "Sodavand",
-        "amount": "4 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Shake",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Singapore Sling",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Kirsebær likør",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Benedictine",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "1 dash"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Ananas/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "French 75",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Citrusjuice",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Sukkersirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Champagne",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citron twist",
-    "method": "Shake + Strain",
-    "glass": "Champagne flutes",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Mai Tai",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Mørk rom",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Cointreau",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Orgeat sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "3 cl"
-      }
-    ],
-    "garnish": "Mynte top/Lime skal",
-    "method": "Shake + Build",
-    "glass": "Lowball/Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Blue Hawaiian",
-    "ingredients": [
-      {
-        "name": "Lys rom",
-        "amount": "3 cl"
-      },
-      {
-        "name": "Blue Curacao",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Ananas juice",
-        "amount": "6 cl"
-      },
-      {
-        "name": "Fløde",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Shake + Build",
-    "glass": "Hurricane",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Tequila Sunrise",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "4 cl"
-      },
-      {
-        "name": "Appelsin juice",
-        "amount": "10 cl"
-      },
-      {
-        "name": "Grenadine",
-        "amount": "1 cl"
-      }
-    ],
-    "garnish": "Appelsin skive/kirsebær",
-    "method": "Build + Layer",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Pisco Sour",
-    "ingredients": [
-      {
-        "name": "Pisco",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
+        "name": "Citron",
         "amount": "3 cl"
       },
       {
@@ -4378,444 +3315,376 @@
       },
       {
         "name": "Æggehvide",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura Bitter",
-        "amount": "2 dashes"
-      }
-    ],
-    "garnish": "Angostura Bitter (2 dashes)",
-    "method": "Dry shake + Shake + Strain",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "B52",
-    "ingredients": [
-      {
-        "name": "Kahlua",
         "amount": "2 cl"
       },
       {
-        "name": "Baileys",
+        "name": "Blanc",
+        "amount": "top"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Shake + Strain + Top",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "St. Cue (Hjemmelavet)",
+    "ingredients": [
+      {
+        "name": "Fersken likør",
         "amount": "2 cl"
       },
       {
-        "name": "Cointreau",
-        "amount": "2 cl"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Layer",
-    "glass": "Shot glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Irish coffee",
-    "ingredients": [
-      {
-        "name": "Irish whiskey",
-        "amount": "4 cl"
+        "name": "Hyldeblomst likør",
+        "amount": "3 cl"
       },
       {
-        "name": "Kaffe",
-        "amount": "8 cl"
-      },
-      {
-        "name": "Brun farin",
-        "amount": "2 tsk."
-      },
-      {
-        "name": "Flødeskum",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Ingen",
-    "method": "Build",
-    "glass": "Irish coffee glas",
-    "ice": "Ingen"
-  },
-  {
-    "name": "Vodka Tonic",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Tonic",
-        "amount": "10 cl"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Gin Tonic",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Tonic",
-        "amount": "10 cl"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Whiskey Ginger",
-    "ingredients": [
-      {
-        "name": "Bourbon",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Rom & Cola",
-    "ingredients": [
-      {
-        "name": "Rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cola",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Gin Buck",
-    "ingredients": [
-      {
-        "name": "Gin",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
+        "name": "Limejuice",
         "amount": "2 cl"
       },
       {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Vodka Buck",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
+        "name": "Agurk",
+        "amount": "5 cm"
       },
       {
-        "name": "Citrusjuice",
+        "name": "Æggehvide",
+        "amount": ""
+      }
+    ],
+    "garnish": "",
+    "method": "Shake + dry shake",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "Unnamed Cocktail 130",
+    "ingredients": [
+      {
+        "name": "likør 43",
+        "amount": "2"
+      },
+      {
+        "name": "mørk rom",
+        "amount": "2"
+      },
+      {
+        "name": "appelsinjuice",
+        "amount": "4"
+      },
+      {
+        "name": "sukker",
+        "amount": "1,5"
+      },
+      {
+        "name": "æg",
+        "amount": "2"
+      }
+    ],
+    "garnish": "",
+    "method": "",
+    "glass": "",
+    "ice": ""
+  },
+  {
+    "name": "HIVE",
+    "ingredients": [
+      {
+        "name": "gin",
+        "amount": "3"
+      },
+      {
+        "name": "st germain",
+        "amount": "2"
+      },
+      {
+        "name": "citron",
+        "amount": "3"
+      },
+      {
+        "name": "æg",
+        "amount": "2"
+      },
+      {
+        "name": "sukker",
+        "amount": "1,5"
+      },
+      {
+        "name": "trane",
+        "amount": "3 cl"
+      }
+    ],
+    "garnish": "?",
+    "method": "Shake + Fine strain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
+  },
+  {
+    "name": "HIVE",
+    "ingredients": [
+      {
+        "name": "whiskey",
         "amount": "2 cl"
       },
       {
-        "name": "Ginger Ale/Beer",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Dark 'n' Stormy",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Ginger Beer",
-        "amount": "top up"
-      },
-      {
-        "name": "Limebåd",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Tequila Soda",
-    "ingredients": [
-      {
-        "name": "Tequila",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sodavand",
-        "amount": "top up"
-      },
-      {
-        "name": "Limebåd",
-        "amount": "1 stk."
-      }
-    ],
-    "garnish": "Limebåd",
-    "method": "Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Fizzy",
-    "ingredients": [
-      {
-        "name": "Spiritus (Gin/Vodka/Rom)",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Citrusjuice",
+        "name": "disaronno",
         "amount": "2 cl"
       },
       {
-        "name": "Sukkersirup",
-        "amount": "2 cl"
+        "name": "hindbær pure",
+        "amount": "3 cl"
       },
       {
-        "name": "Sodavand",
-        "amount": "top up"
-      }
-    ],
-    "garnish": "Citronskive",
-    "method": "Shake + Build",
-    "glass": "Highball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Old Fashioned (Rom)",
-    "ingredients": [
-      {
-        "name": "Mørk rom",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Sukker",
-        "amount": "1 stk."
-      },
-      {
-        "name": "Angostura bitter",
+        "name": "ango",
         "amount": "3 dashes"
       },
       {
-        "name": "Sodavand",
-        "amount": "splash"
-      }
-    ],
-    "garnish": "Appelsin twist/Kirsebær",
-    "method": "Muddle + Build",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Old Fashioned (Tequila)",
-    "ingredients": [
-      {
-        "name": "Tequila (Añejo)",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Agave sirup",
-        "amount": "1 cl"
-      },
-      {
-        "name": "Angostura bitter",
-        "amount": "2 dashes"
-      }
-    ],
-    "garnish": "Appelsin twist",
-    "method": "Build + Stir",
-    "glass": "Lowball",
-    "ice": "Terninger"
-  },
-  {
-    "name": "Margarita (Mezcal)",
-    "ingredients": [
-      {
-        "name": "Mezcal",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Cointreau",
+        "name": "citron",
         "amount": "2 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "3 cl"
+        "name": "sukker",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "æggehvide",
+        "amount": "2 cl"
+      },
+      {
+        "name": "tranebær",
+        "amount": "4 cl"
       }
     ],
-    "garnish": "Salt rand/Lime hjul",
+    "garnish": "Timian",
     "method": "Shake + Strain",
-    "glass": "Martini/coupette",
-    "ice": "Terninger"
+    "glass": "Lowball",
+    "ice": "Ja tak"
   },
   {
-    "name": "Frozen Daiquiri",
+    "name": "HIVE",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "tequila",
+        "amount": "4 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "æggehvide",
         "amount": "2 cl"
       },
       {
-        "name": "Sukkersirup",
+        "name": "citron",
         "amount": "2 cl"
+      },
+      {
+        "name": "vanilje sirup",
+        "amount": "2-3 cl"
+      },
+      {
+        "name": "appelsinjuice",
+        "amount": "6 cl"
       }
     ],
-    "garnish": "Lime twist",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
-    "ice": "Knust"
+    "garnish": "Tørret limeskive",
+    "method": "Shake + FIne strain",
+    "glass": "Coupe",
+    "ice": "Nej tak"
   },
   {
-    "name": "Frozen Strawberry Daiquiri",
+    "name": "Unnamed Cocktail 134",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Likør43",
+        "amount": "4 cl"
       },
       {
-        "name": "Lime juice",
-        "amount": "2 cl"
+        "name": "Appelsinjuice",
+        "amount": "4 cl"
       },
       {
-        "name": "Jordbær sirup",
+        "name": "Campari",
         "amount": "3 cl"
+      },
+      {
+        "name": "Citronjuice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Bananskum",
+        "amount": "top"
       }
     ],
-    "garnish": "Jordbær",
-    "method": "Blend",
-    "glass": "Margarita/coupette",
-    "ice": "Knust"
+    "garnish": "Tørret limeskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Ja tak"
   },
   {
-    "name": "Pina Colada",
+    "name": "Creme Brulee",
+    "ingredients": [],
+    "garnish": "",
+    "method": "",
+    "glass": "",
+    "ice": ""
+  },
+  {
+    "name": "Koldskål",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "licor43",
+        "amount": "5cl"
       },
       {
-        "name": "Kokoscreme",
-        "amount": "4 cl"
+        "name": "citronjuice",
+        "amount": "3cl"
       },
       {
-        "name": "Ananas juice",
-        "amount": "8 cl"
+        "name": "sukker",
+        "amount": "2cl"
+      },
+      {
+        "name": "ananas",
+        "amount": "2cl"
+      },
+      {
+        "name": "mælk",
+        "amount": "4cl"
       }
     ],
-    "garnish": "Ananas skive/kirsebær",
-    "method": "Blend",
-    "glass": "Hurricane",
-    "ice": "Knust"
+    "garnish": "Kammerjunker",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
+    "ice": "Terninger"
   },
   {
-    "name": "Frozen Mojito",
+    "name": "Kung fu",
     "ingredients": [
       {
-        "name": "Lys rom",
-        "amount": "5 cl"
+        "name": "Jägermeister",
+        "amount": "3 cl"
       },
       {
-        "name": "Lime juice",
+        "name": "Pisang Ambon",
+        "amount": "1,5 cl"
+      },
+      {
+        "name": "Cola",
+        "amount": "top"
+      }
+    ],
+    "garnish": "Limebåd",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Ævle Bævle",
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Æblejuice",
+        "amount": "top"
+      }
+    ],
+    "garnish": "Æblestykke",
+    "method": "Build + Stir",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Licor43 eksperiment (Rapsberry 43)",
+    "ingredients": [
+      {
+        "name": "Licor43",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Limejuice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Hindbær puré",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Appelsinbitter",
+        "amount": "3-4 dashes"
+      },
+      {
+        "name": "Tonic",
+        "amount": "top"
+      }
+    ],
+    "garnish": "Mynte",
+    "method": "Shake + Build + Churn",
+    "glass": "Highball",
+    "ice": "Terninger"
+  },
+  {
+    "name": "Licor43 eksperiment (Sweet Tennessee)",
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Licor43",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Hindbærpuré",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Limejuice",
         "amount": "2 cl"
       },
       {
         "name": "Sukkersirup",
-        "amount": "2 cl"
+        "amount": "1 cl"
       },
       {
-        "name": "Mynte",
-        "amount": "10 stk."
+        "name": "Chili bitters",
+        "amount": "3-4 dashes"
       }
     ],
-    "garnish": "Mynte top/Limebåd",
-    "method": "Blend",
-    "glass": "Hurricane",
-    "ice": "Knust"
-  },
-  {
-    "name": "Watermelon Crush",
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "amount": "5 cl"
-      },
-      {
-        "name": "Vandmelonsirup",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Lime juice",
-        "amount": "2 cl"
-      },
-      {
-        "name": "Vandmelon",
-        "amount": "2-3 stk."
-      }
-    ],
-    "garnish": "Vandmelon",
-    "method": "Muddle + Shake + Strain",
-    "glass": "Martini/coupette",
+    "garnish": "Tørret limeskive",
+    "method": "Shake + Strain",
+    "glass": "Lowball",
     "ice": "Terninger"
   },
   {
-    "name": "Passionfruit Crush",
+    "name": "Licor43 eksperiment (Mediterranean Whisper)",
     "ingredients": [
       {
-        "name": "Vodka",
-        "amount": "5 cl"
+        "name": "Adriatico bianco",
+        "amount": "1,5 cl"
       },
       {
-        "name": "Passionsfrugt likør",
-        "amount": "2 cl"
+        "name": "Licor43",
+        "amount": "3 cl"
       },
       {
-        "name": "Passionsfrugt juice",
-        "amount": "4 cl"
+        "name": "Citron",
+        "amount": "2,5"
       },
       {
-        "name": "Lime juice",
+        "name": "Mørk kakaolikør",
         "amount": "1 cl"
+      },
+      {
+        "name": "Vaniljesirup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "saline solution",
+        "amount": ""
       }
     ],
-    "garnish": "Passionsfrugt skive",
-    "method": "Shake + Fine strain",
-    "glass": "Martini/coupette",
+    "garnish": "Cocktailblomster / limepulver",
+    "method": "Shake + Strain",
+    "glass": "Dandy / Vinglas",
     "ice": "Terninger"
   }
 ]
