@@ -229,7 +229,7 @@ function showSuggestions(term) {
 async function init() {
   try {
     // Load drinks
-    const drinksRes = await fetch('./data/drinks.json', { cache: 'no-store' });
+    const drinksRes = await fetch('data/drinks.json', { cache: 'no-store' });
     allDrinks = (await drinksRes.json()) || [];
 
     // Build ingredients list
@@ -243,7 +243,7 @@ async function init() {
 
     // Load synonyms
     try {
-      const synRes = await fetch('./data/synonyms.json', { cache: 'no-store' });
+      const synRes = await fetch('data/synonyms.json', { cache: 'no-store' });
       const rawSyns = await synRes.json();
       synonyms = buildSynonymMap(rawSyns);
     } catch (e) {
