@@ -38,6 +38,15 @@
   }
 }
 
+@media (max-width: 639px) {
+  .panel-open main {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    transition: none; /* optional: no shrink animation on mobile */
+  }
+}
+
 
 /* Base panel styles */
 #detailPanel {
@@ -142,4 +151,9 @@
 
 #panelHandle.dragging {
   cursor: grabbing;
+}
+
+.no-scroll-when-panel-open {
+  overflow: hidden;
+  height: 100vh;
 }
