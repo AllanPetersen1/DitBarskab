@@ -13,6 +13,10 @@
     let isOpen = false;
     let currentDrink = null;
 
+    function preventScroll(e) {
+        e.preventDefault();
+    }
+
     function isMobile() {
         return window.matchMedia('(max-width: 639px)').matches;
     }
@@ -27,6 +31,7 @@
         if (isMobile()) {
             document.documentElement.classList.add('no-scroll-when-panel-open');
             dragIndicator.style.display = 'block';
+            document.addEventListener('touchmove', preventScroll, { passive: false });
         } else {
             dragIndicator.style.display = 'none';
         }
@@ -42,6 +47,8 @@
         document.documentElement.classList.remove('no-scroll-when-panel-open');
         isOpen = false;
         currentDrink = null;
+
+        document.removeEventListener('touchmove', preventScroll);
 
         panel.style.transform = '';
         backdrop.style.opacity = '';
