@@ -25,18 +25,22 @@
         currentDrink = drink;
 
         let imgUrl = '';
+        let description = 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+
         try {
             const res = await fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=' + encodeURIComponent(drink.name));
             const data = await res.json();
             if (data.drinks && data.drinks.length > 0) {
-                imgUrl = data.drinks[0].strDrinkThumb || '';
+                const apiDrink = data.drinks[0];
+                imgUrl = apiDrink.strDrinkThumb || '';
+                description = apiDrink.strInstructions || description;
             }
         } catch (e) {
             console.warn('Failed to fetch drink image', e);
         }
 
         panelTitle.textContent = drink.name || 'Drink';
-        panelContent.innerHTML = buildPanelHtml(drink, imgUrl);
+        panelContent.innerHTML = buildPanelHtml(drink, imgUrl, description);
 
         mainEl.classList.add('push-for-panel');
 
@@ -70,8 +74,7 @@
         }, t + 20);
     }
 
-    function buildPanelHtml(d, imgUrl = '') {
-    const description = d.description || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    function buildPanelHtml(d, imgUrl = '', description = '') {
 
     const ingredientsHtml = (d.ingredients || [])
         .map(i => `<li class="mb-2"><span class="text-neutral-100">${escapeHtml(i.name)}</span> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
