@@ -14,7 +14,9 @@
     let currentDrink = null;
 
     function preventScroll(e) {
-        e.preventDefault();
+        if (!e.target.closest('#panelContent')) {
+            e.preventDefault();
+        }
     }
 
     function isMobile() {
@@ -75,7 +77,6 @@
     }
 
     function buildPanelHtml(d, imgUrl = '', description = '') {
-
     const ingredientsHtml = (d.ingredients || [])
         .map(i => `<li class="mb-2"><span class="text-neutral-100">${escapeHtml(i.name)}</span> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
         .join('');
@@ -101,7 +102,7 @@
         </div>
     </div>
     `;
-}
+    }
 
     function escapeHtml(str) {
         return String(str || '')
