@@ -55,7 +55,7 @@
     function buildPanelHtml(d) {
         const method = d.method ? `<p class="mb-3 text-sm text-neutral-400">${d.method}</p>` : '';
         const ingredientsHtml = (d.ingredients || [])
-            .map(i => `<li class="mb-2"><strong class="text-neutral-100">${escapeHtml(i.name)}</strong> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
+            .map(i => `<li class="mb-2"><span class="text-neutral-100">${escapeHtml(i.name)}</span> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
             .join('');
         const notes = d.notes ? `<p class="mt-3 text-sm text-neutral-400">${escapeHtml(d.notes)}</p>` : '';
         return `
