@@ -24,14 +24,14 @@
 
         mainEl.classList.add('push-for-panel');
 
-        document.documentElement.classList.add('panel-open');
-
         if (isMobile()) {
             document.documentElement.classList.add('no-scroll-when-panel-open');
             dragIndicator.style.display = 'block';
         } else {
             dragIndicator.style.display = 'none';
         }
+
+        document.documentElement.classList.add('panel-open');
 
         isOpen = true;
         closeBtn.focus();
