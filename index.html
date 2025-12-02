@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/styles.css">
   <script defer src="js/app.js"></script>
   <script defer src="js/nav.js"></script>
+  <script defer src="js/panel.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -42,10 +43,8 @@
         <!-- Mobile Hamburger (visible until lg) -->
         <div class="lg:hidden">
           <button id="nav-toggle" aria-label="Open menu" class="p-2 rounded-md border border-neutral-700">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none"
-                 viewBox="0 0 24 24" stroke="#ffffff">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M4 8h16M4 16h16" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="#ffffff">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
             </svg>
           </button>
         </div>
@@ -80,9 +79,31 @@
 
     <!-- Drinks Grid -->
     <div id="drinksContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+
+    <div id="detailPanel" class="fixed inset-y-0 right-0 z-60 pointer-events-none">
+      <div id="panelBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-opacity pointer-events-none">
+      </div>
+
+      <aside id="panel"
+        class="absolute right-0 top-0 h-full transform translate-x-full transition-transform will-change-transform bg-neutral-900 border-l border-neutral-700 shadow-2xl overflow-auto">
+        <div id="panelHandle" class="w-full flex items-center justify-between p-4 border-b border-neutral-700">
+          <div class="flex items-center gap-3">
+            <div id="dragIndicator" class="hidden sm:block w-10 h-1 rounded-full bg-neutral-700"></div>
+            <h2 id="panelTitle" class="text-xl font-bold text-brand"></h2>
+          </div>
+
+          <button id="closePanelBtn" class="text-neutral-400 hover:text-white p-2" aria-label="Close panel">✕</button>
+        </div>
+
+        <div id="panelContent" class="p-4 text-neutral-300">
+          <!-- Filled dynamically -->
+        </div>
+      </aside>
+    </div>
+
   </main>
 
-  
+
 </body>
 
 </html>

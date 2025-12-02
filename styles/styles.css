@@ -6,3 +6,67 @@
 #suggestions li:hover {
   background-color: #525252;
 }
+
+/* Panel sizing using CSS variables so JS can toggle easily */
+  :root {
+    --panel-width-desktop: 30vw; /* 30% of viewport width */
+    --panel-height-mobile: 80vh; /* 80% of viewport height */
+    --panel-transition: 300ms;
+  }
+
+  /* Base panel styles */
+  #detailPanel { pointer-events: none; }
+  #panelBackdrop { transition: opacity var(--panel-transition) ease; }
+  #panel { width: var(--panel-width-desktop); height: 100%; pointer-events: auto; box-sizing: border-box; transition: transform var(--panel-transition) cubic-bezier(.2,.9,.3,1); }
+
+  /* When panel is visible on desktop: slide in */
+  .panel-open #panel {
+    transform: translateX(0);
+  }
+  .panel-open #panelBackdrop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .panel-open { pointer-events: auto; }
+
+  /* Push main content left when panel open on desktop */
+  main.push-for-panel {
+    transition: margin-right var(--panel-transition) cubic-bezier(.2,.9,.3,1);
+  }
+  /* desktop: push right by panel width */
+  @media (min-width: 640px) {
+    .panel-open main.push-for-panel {
+      margin-right: var(--panel-width-desktop);
+    }
+  }
+
+  /* mobile behavior: bottom-sheet style */
+  @media (max-width: 639px) {
+    #detailPanel { inset: auto 0 0 0; height: 100vh; }
+    #panel {
+      width: 100%;
+      height: var(--panel-height-mobile);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: auto;
+      transform: translateY(100%);
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      border-left: none;
+      border-top: 1px solid rgba(255,255,255,0.03);
+      /* make handle visible */
+    }
+    .panel-open #panel {
+      transform: translateY(0);
+    }
+    /* Do not push main content on mobile; instead add small dim */
+    .panel-open main.push-for-panel {
+      margin-right: 0;
+    }
+    #dragIndicator { display: block; width: 40px; height: 4px; border-radius: 9999px; background: #4b5563; margin-right: 8px; }
+  }
+
+  /* Small accessibility/touch hit area for handle */
+  #panelHandle { touch-action: pan-y; cursor: grab; user-select: none; -webkit-user-drag: none; }
+  #panelHandle.dragging { cursor: grabbing; }

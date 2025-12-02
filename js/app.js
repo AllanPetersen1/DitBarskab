@@ -96,21 +96,29 @@ function renderDrinks(list) {
     `;
     container.appendChild(card);
   });
+
+  document.querySelectorAll('#drinksContainer > div').forEach(card => {
+    card.addEventListener('click', () => {
+      const name = card.querySelector('h3')?.textContent.trim();
+      const drink = allDrinks.find(d => d.name === name);
+      if (drink) window.openDrinkPanel(drink);
+    });
+  });
 }
 
 // Handle arrow key navigation in suggestions
 function handleArrowKeys(e) {
   const items = Array.from(document.querySelectorAll('#suggestions li'));
-  
+
   if (e.key === 'ArrowDown') {
     e.preventDefault();
     if (items.length === 0) return;
-    
-    selectedSuggestionIndex = 
-      selectedSuggestionIndex < items.length - 1 
-        ? selectedSuggestionIndex + 1 
+
+    selectedSuggestionIndex =
+      selectedSuggestionIndex < items.length - 1
+        ? selectedSuggestionIndex + 1
         : 0;
-    
+
     updateHighlight(items);
     // Scroll into view if needed
     if (selectedSuggestionIndex >= 0) {
@@ -119,16 +127,16 @@ function handleArrowKeys(e) {
         behavior: 'smooth'
       });
     }
-  } 
+  }
   else if (e.key === 'ArrowUp') {
     e.preventDefault();
     if (items.length === 0) return;
-    
-    selectedSuggestionIndex = 
-      selectedSuggestionIndex > 0 
-        ? selectedSuggestionIndex - 1 
+
+    selectedSuggestionIndex =
+      selectedSuggestionIndex > 0
+        ? selectedSuggestionIndex - 1
         : items.length - 1;
-    
+
     updateHighlight(items);
     // Scroll into view if needed
     if (selectedSuggestionIndex >= 0) {
@@ -145,7 +153,7 @@ function updateHighlight(items) {
   items.forEach((li, idx) => {
     li.classList.toggle('bg-neutral-700', idx === selectedSuggestionIndex);
     li.classList.toggle('text-brand', idx === selectedSuggestionIndex);
-    
+
     // Remove hover background from selected item
     if (idx === selectedSuggestionIndex) {
       li.classList.remove('hover:bg-neutral-700');
@@ -220,7 +228,7 @@ function showSuggestions(term) {
 
   visibleSuggestions = items;
   suggestionsList.style.display = items.length ? 'block' : 'none';
-  
+
   // Reset selection when suggestions change
   selectedSuggestionIndex = -1;
 }
