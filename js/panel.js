@@ -100,11 +100,8 @@
             </div>
         </div>
     </div>
-
-    
     `;
 }
-
 
     function escapeHtml(str) {
         return String(str || '')
