@@ -1,3 +1,13 @@
+/* Panel sizing using CSS variables so JS can toggle easily */
+:root {
+  --panel-width-desktop: 40vw;
+  --main-move-desktop: calc(-1 * (var(--panel-width-desktop) / 2));
+  /* 40% of viewport width */
+  --panel-height-mobile: 80vh;
+  /* 80% of viewport height */
+  --panel-transition: 300ms;
+}
+
 #suggestions li.bg-neutral-700 {
   background-color: #404040;
   color: #fbbf24;
@@ -8,15 +18,26 @@
   background-color: #525252;
 }
 
-/* Panel sizing using CSS variables so JS can toggle easily */
-:root {
-  --panel-width-desktop: 40vw;
-  --main-move-desktop: calc(-1 * (var(--panel-width-desktop) / 2));
-  /* 40% of viewport width */
-  --panel-height-mobile: 80vh;
-  /* 80% of viewport height */
-  --panel-transition: 300ms;
+.panel-open main{
+  max-width: calc(97vw - var(--panel-width-desktop)); /* shrink to fit remaining space */
+  margin-left: auto;
+  margin-right: auto; /* center the grid */
 }
+
+/* Desktop wide (1500px–1024px) -> 2 columns */
+@media (min-width: 999px) and (max-width: 1499px) {
+  .panel-open #drinksContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet/small desktop (1024px–624px) -> 1 column */
+@media (min-width: 624px) and (max-width: 998px) {
+  .panel-open #drinksContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 /* Base panel styles */
 #detailPanel {
@@ -48,9 +69,6 @@
 .panel-open {
   pointer-events: auto;
 }
-
-/* Push main content left when panel open on desktop */
-
 
 
 /* Push main content left when panel open on desktop */

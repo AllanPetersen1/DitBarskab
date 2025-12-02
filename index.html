@@ -81,31 +81,31 @@
       <div id="drinksContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
     </section>
 
-    </main>
-    
-    <div id="detailPanel" class="fixed inset-y-0 right-0 z-60 pointer-events-none">
-      <div id="panelBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-opacity pointer-events-none">
-      </div>
+  </main>
 
-      <aside id="panel"
-        class="absolute right-0 top-0 h-full transform translate-x-full transition-transform will-change-transform bg-neutral-900 border-l border-neutral-700 shadow-2xl overflow-auto">
-        <div id="panelHandle" class="w-full flex items-center justify-between p-4 border-b border-neutral-700">
-          <div class="flex items-center gap-3">
-            <div id="dragIndicator" class="hidden sm:block w-10 h-1 rounded-full bg-neutral-700"></div>
-            <h2 id="panelTitle" class="text-xl font-bold text-brand"></h2>
-          </div>
-
-          <button id="closePanelBtn" class="text-neutral-400 hover:text-white p-2" aria-label="Close panel">✕</button>
-        </div>
-
-        <div id="panelContent" class="p-4 text-neutral-300">
-          <!-- Filled dynamically -->
-        </div>
-      </aside>
+  <div id="detailPanel" class="fixed inset-y-0 right-0 z-60 pointer-events-none">
+    <div id="panelBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-opacity pointer-events-none">
     </div>
 
+    <aside id="panel"
+      class="absolute right-0 top-0 h-full transform translate-x-full transition-transform will-change-transform bg-neutral-900 border-l border-neutral-700 shadow-2xl overflow-auto">
+      <div id="panelHandle" class="w-full flex items-center justify-between p-4 border-b border-neutral-700">
+        <div class="flex items-center gap-3">
+          <div id="dragIndicator" class="hidden sm:block w-10 h-1 rounded-full bg-neutral-700"></div>
+          <h2 id="panelTitle" class="text-xl font-bold text-brand"></h2>
+        </div>
 
-  
+        <button id="closePanelBtn" class="text-neutral-400 hover:text-white p-2" aria-label="Close panel">✕</button>
+      </div>
+
+      <div id="panelContent" class="p-4 text-neutral-300">
+        <!-- Filled dynamically -->
+      </div>
+    </aside>
+  </div>
+
+
+
 
 
 
