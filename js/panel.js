@@ -21,10 +21,22 @@
         return window.matchMedia('(max-width: 639px)').matches;
     }
 
-    function openPanel(drink) {
+    async function openPanel(drink) {
         currentDrink = drink;
+
+        let imgUrl = '';
+        try {
+            const res = await fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=' + encodeURIComponent(drink.name));
+            const data = await res.json();
+            if (data.drinks && data.drinks.length > 0) {
+                imgUrl = data.drinks[0].strDrinkThumb || '';
+            }
+        } catch (e) {
+            console.warn('Failed to fetch drink image', e);
+        }
+
         panelTitle.textContent = drink.name || 'Drink';
-        panelContent.innerHTML = buildPanelHtml(drink);
+        panelContent.innerHTML = buildPanelHtml(drink, imgUrl);
 
         mainEl.classList.add('push-for-panel');
 
@@ -37,7 +49,6 @@
         }
 
         document.documentElement.classList.add('panel-open');
-
         isOpen = true;
         closeBtn.focus();
     }
@@ -59,21 +70,38 @@
         }, t + 20);
     }
 
-    function buildPanelHtml(d) {
-        const method = d.method ? `<p class="mb-3 text-sm text-neutral-400">${d.method}</p>` : '';
-        const ingredientsHtml = (d.ingredients || [])
-            .map(i => `<li class="mb-2"><span class="text-neutral-100">${escapeHtml(i.name)}</span> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
-            .join('');
-        const notes = d.notes ? `<p class="mt-3 text-sm text-neutral-400">${escapeHtml(d.notes)}</p>` : '';
-        return `
-            ${method}
-            <div>
-              <strong class="text-neutral-200">Ingredients</strong>
-              <ul class="mt-2 text-sm list-none pl-0">${ingredientsHtml}</ul>
+    function buildPanelHtml(d, imgUrl = '') {
+    const description = d.description || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+
+    const ingredientsHtml = (d.ingredients || [])
+        .map(i => `<li class="mb-2"><span class="text-neutral-100">${escapeHtml(i.name)}</span> ${i.amount ? `<span class="text-neutral-400">– ${escapeHtml(i.amount)}</span>` : ''}</li>`)
+        .join('');
+
+    return `
+    <div class="flex flex-col xl:flex-row gap-4 w-full">
+        <!-- Image -->
+        ${imgUrl ? `
+        <div class="md:basis-1/2 w-full">
+            <img src="${imgUrl}" alt="${d.name}" class="rounded w-full h-auto object-cover">
+        </div>
+        ` : ''}
+
+        <!-- Description -->
+        <div class="md:basis-1/2 text-sm text-neutral-400 min-w-0">
+            <p>${description}</p>
+
+            <!-- Ingredients -->
+            <div class="mt-4">
+                <strong class="text-neutral-200">Ingredients</strong>
+                <ul class="mt-2 text-sm list-none pl-0">${ingredientsHtml}</ul>
             </div>
-            ${notes}
-        `;
-    }
+        </div>
+    </div>
+
+    
+    `;
+}
+
 
     function escapeHtml(str) {
         return String(str || '')
