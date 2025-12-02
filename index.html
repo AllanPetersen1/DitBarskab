@@ -64,22 +64,25 @@
 
 
   <main class="p-6 max-w-4xl mx-auto">
-    <!-- Search Bar with Dropdown -->
-    <div class="mb-4 relative">
-      <input id="searchInput" placeholder="Search ingredients (e.g. Vodka)"
-        class="w-full p-3 rounded-lg bg-neutral-800 border border-neutral-700 focus:border-brand focus:outline-none"
-        autocomplete="off" />
-      <ul id="suggestions"
-        class="absolute w-full bg-neutral-800 border border-neutral-700 rounded mt-1 max-h-60 overflow-y-auto z-50 hidden">
-      </ul>
-    </div>
+    <section class="push-for-panel">
+      <div class="mb-4 relative">
+        <input id="searchInput" placeholder="Search ingredients (e.g. Vodka)"
+          class="w-full p-3 rounded-lg bg-neutral-800 border border-neutral-700 focus:border-brand focus:outline-none"
+          autocomplete="off" />
+        <ul id="suggestions"
+          class="absolute w-full bg-neutral-800 border border-neutral-700 rounded mt-1 max-h-60 overflow-y-auto z-50 hidden">
+        </ul>
+      </div>
 
-    <!-- Filter Tags -->
-    <div id="filterTags" class="flex flex-wrap gap-2 mb-6"></div>
+      <!-- Filter Tags -->
+      <div id="filterTags" class="flex flex-wrap gap-2 mb-6"></div>
 
-    <!-- Drinks Grid -->
-    <div id="drinksContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      <!-- Drinks Grid -->
+      <div id="drinksContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
 
+    </main>
+    
     <div id="detailPanel" class="fixed inset-y-0 right-0 z-60 pointer-events-none">
       <div id="panelBackdrop" class="absolute inset-0 bg-black/40 opacity-0 transition-opacity pointer-events-none">
       </div>
@@ -101,7 +104,10 @@
       </aside>
     </div>
 
-  </main>
+
+  
+
+
 
 
 </body>

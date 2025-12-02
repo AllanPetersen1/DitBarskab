@@ -29,7 +29,7 @@
 
         // toggle root class to animate in
         document.documentElement.classList.add('no-scroll-when-panel-open'); // optional for global control
-        detailPanelRoot.classList.add('panel-open');
+        document.body.classList.add('panel-open');
         isOpen = true;
 
         // for accessibility: focus the close button
@@ -45,7 +45,7 @@
 
     // Close panel
     function closePanel() {
-        detailPanelRoot.classList.remove('panel-open');
+        document.body.classList.remove('panel-open');
         isOpen = false;
         currentDrink = null;
         // remove push after transition
